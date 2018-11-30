@@ -63,3 +63,4 @@ php artisan key:generate
 * Entah kenapa tampilan dashboard user jadi buruk rupa
 
 ## Akses Langsung Aplikasi di:
+https://laportsm.azurewebsites.net
