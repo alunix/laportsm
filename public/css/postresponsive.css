@@ -1,0 +1,68 @@
+
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	
+	
+}
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+
+	
+	/* ---------------------------------
+	6. MAIN POST
+	--------------------------------- */
+
+	.main-post .post-top-area,
+	.main-post .post-bottom-area{ margin: 30px; }
+
+	/* ---------------------------------
+	7. SIDEBAR AREA
+	--------------------------------- */
+	
+	.info-area{ padding: 30px 0; }
+	
+	.info-area .sidebar-area,
+	.info-area .tag-area{ padding-left: 0px; }
+
+	
+}
+
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	
+}
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	.main-post ul.post-icons,
+	.main-post ul.icons{ float: none; margin-top: 10px; }
+	
+	.main-post ul.post-icons > li > a > i,
+	.main-post ul.icons > li > a > i{ padding: 0; padding-right: 10px; }
+
+
+	
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+	
+	
+}

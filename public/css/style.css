@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*=====Header=====*/
+#header1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(39, 39, 39, .747), rgba(39, 39, 39, .747)), url(../img/bg/header3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+
+}
+
+.tekan{
+    color: #28f9e1;
+}
+
+.logoheader{
+    margin-left: 0;
+}
+#heads{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#heads1{
+    width: 100%;
+}
+
+.headline{
+    margin-top: 10%;
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    max-width: 100%;
+}
+
+.textline1{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* === Navigasi di Header Fixed Teu Nuturkeun === */
+.navbar{
+    background-color:transparent !important;
+    border-color:transparent;
+    color: #fff;
+}
+
+.navbar-nav{
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.navbar-brand{
+    max-width: 100%;
+    margin-left: 2%;
+    margin-top: 4%; 
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 1.01em;
+    margin: 1em;    
+}
+
+.nav-item  a:hover{
+    color: #28f9e1 !important;
+}
+
+.navbar-toggler{
+    margin-top: 5%;
+    border-color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/* ===Menu pada Mobile=== */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, .96);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* ===Custom Button Bootstrap==== */
+.btn-outline-success {
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    margin-top: 3%;
+  }
+
+.btn-outline-success:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+    -webkit-box-shadow : none;
+            box-shadow: none;
+}
+
+/* ======Bagian Tentang Tasikmalaya Smart City====== */
+#tentang{
+    max-width: 100%;
+    padding-bottom: 4%;
+}
+
+#pilar4{
+    margin-top: 3%;
+    text-align: center;
+}
+#pilar{
+    margin: 2%;
+}
+
+#penjelasan{
+    margin-top: 3%;
+}
+
+#penjelasan h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+#pendukung{
+    text-align: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+/* ===Logo Pendukung === */
+.logo{
+    margin-top: 3%;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 1%;
+ 
+}
+
+.logo ul {
+    list-style: none;
+    position: relative;
+}
+
+.logo ul li {
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.logo ul li img {
+    vertical-align: middle;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+}
+
+#informasi{
+    background-image: url(../img/bg/cirahong.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%; 
+}
+
+#kotakinformasi{
+    background-color: rgba(255, 255, 255, .75);
+    width: 60%;
+    border-radius: 10px;
+}
+
+#teksinformasi{
+    width: 70%;
+    margin-top: 5%;
+}
+
+#teksinformasi h1{
+    font-size: 3.5em;
+}
+
+#teksinformasi p{
+    font-size: 1.2em;
+}
+
+.listinfo{
+    margin-top: 5%;
+    list-style: none;
+}
+
+.listinfo li{
+    list-style: none;
+    margin-bottom: 10%;
+    font-size: 1.3em;
+}
+
+#tmbinfo{
+    color: #0275d8;
+    border-color: #0275d8;
+    border-radius: 0;
+    border: 2px solid #0275d8;
+    width: 50%;
+    height: 9vh;
+    font-size: 1.01em; 
+}
+
+#tmbinfo:hover{
+    background-color: rgba(0,0,0, 1);
+    color: #fff;
+    border: #000;
+}
+
+#layanan h1{
+    text-align: center;
+    margin-top: 4%;
+}
+
+#tipelayanan{
+    text-align: center;
+    margin-top: 5%;
+    width: 100% !important;
+}
+#pilihlayanan{
+    background-color: #014c8c;
+    margin: 1.5%;
+}
+
+.row.flush-col > [class*="col-"] {
+    padding:5%;
+    text-align: center;
+}
+
+#plhlyn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #74C0C0;
+    color: #fff;
+}
+
+#plhlyn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CE4841;
+    color: #fff;
+}
+
+#plhlyn3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6AA3D;
+    color: #fff;
+}
+
+#plhlyn4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8CE366;
+    color: #fff;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#plhlyn4 a:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+#berita{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#postberita h1{
+    padding-bottom: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+footer.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+#brtlny {
+    color:#0275d8;
+    background-image: none;
+    background-color: transparent;
+    border-color: #0275d8;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+#brtlny:hover {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+@media (max-width: 1200px){
+    #tentang{
+        height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #header{
+        height: auto;
+    }
+    #tentang{
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #tentang{
+        height: auto;
+    }
+}
+
+/*Untuk handphone*/
+@media (max-width: 575px) {
+    #header1{
+        background-attachment: initial;
+    }
+    .logoheader{
+         max-width: 65%;
+         margin-left: -2%;
+         margin-top: -3%
+     }
+     .navbar{
+         /*background-color: #fff !important;
+         height: 12vh;*/ 
+     }
+     #navbarCollapse{
+         overflow-x: hidden;
+     }
+    .navbar-toggler{
+        max-width: 50%;
+        margin-top: 12%;
+    }
+     .headline{
+        text-align: center;
+        font-size: 3em;
+        float: none;
+        width: 100%;
+     }
+     #heads{
+        height: 60vh;
+    }
+     .btn-outline-success{
+        margin-left: 0;
+     }
+     #tentang{
+         height: auto;
+     }
+
+     #penjelasan h1{
+        font-size: 1.6em;
+     }
+     #warga{
+         max-width: 100%;
+         -webkit-flex: none;
+         margin-left: 0;
+     }
+     .logo{
+         height: 95px;
+         margin-left: 7%;
+
+     }
+     #logo1{
+         width: 75%;
+     }
+     #informasi{
+        height: auto;
+        padding: 0;
+        -webkit-flex: none;
+     }
+     #kotakinformasi{
+         width: 100%;
+         height: 100%;
+         border-radius: 0;
+     }
+ }
